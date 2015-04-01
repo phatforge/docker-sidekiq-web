@@ -5,7 +5,7 @@ to make it easily useful for others.
 
 
 ## Cleanup
-- [ ] Add test harness
+- [x] Add test harness
 - [ ] Add tests...
 - [ ] Setup the following project stuffs
     - [ ] HoundCI

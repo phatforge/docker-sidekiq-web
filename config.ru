@@ -1,4 +1,6 @@
-require 'bundler/setup'
+#\ -s puma
+
+require './environment'
 require './app'
 
 Sidekiq.configure_client do |config|
