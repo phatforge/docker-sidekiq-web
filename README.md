@@ -17,6 +17,7 @@ cp .env.example .env
 [edit .env as needed]
 dotenv foreman start
 ```
+
 This will run sidekiq-web using the puma application server on port `9292`
 
 ## Install
