@@ -1,0 +1,13 @@
+language: ruby
+bundler_args: "--without development --deployment --jobs=3 --retry=3"
+cache: bundler
+script: bundle exec rspec
+after_success:
+  - coveralls
+notifications:
+  slack:
+    secure: WUThlfHgbrwbMyiduvvc5Qvc4Sx0scJ3BUxxKnnp8eKe7S4jMWBo8HsHcmQYLCMf2CqtOEUMk2D1T7ofPep9IFtArjAG7Lw83p94S+fuxp7M0gFHgygmaDcOANId0BiEr8eZkXt6emvb7fVo9D2Qh0LrjwaYLI3UWFg6KvkJXvM=
+addons:
+  code_climate:
+    repo_token:
+      secure: ST99NAIpoaKrQZMJLyzjNcXlpWzho86zDO8Cy3CungNt5FOk0ANd8UR4/OHPZeuGU4ic63fGlsjyXVkTQ0L0gtwnYK2MrVtzDr8VKLEgEV6SPMmKrbf27UNWxqNaDcx1se8aAh1h3DZ7TMyAqM50VfAa1ZMHBcjuLT40qYrNxn8=

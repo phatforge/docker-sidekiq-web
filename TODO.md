@@ -8,13 +8,13 @@ to make it easily useful for others.
 - [x] Add test harness
 - [ ] Add tests...
 - [ ] Setup the following project stuffs
-    - [ ] HoundCI
+    - [x] HoundCI
     - [x] Gemnasium
-    - [ ] CodeClimate
-    - [ ] Coveralls
-    - [ ] CircleCI
-    - [ ] Slack
-    - [ ] TravisCI
+    - [x] CodeClimate
+    - [x] Coveralls
+    - [x] CircleCI
+    - [x] Slack
+    - [x] TravisCI
     - [ ] DockerHub
     - [ ] InchCI
     - [ ] ...
